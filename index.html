@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stone Paper Scissor</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div id="Header">
+      <h1>Stone Paper Scissor</h1>
+    </div>
+
+    <div id="Scoreboard">
+      <div id="PLY1">PLAYER-1</div>
+      <div id="PLY2">PLAYER-2</div>
+      <div >
+          <h1 style="font-size: 30px; color:#cecece">Total Score</h1>
+      <span id="P1SC" class="No1"> 0 </span> : <span id="P2SC"  class="No2">0</span>
+      </div>
+    </div>
+      
+    
+
+    <div id="RPS">
+      <div id="P">
+        <img id="IMG1" alt="image 1" src="rock.png" />
+      </div>
+
+      <div id="P">
+        <img id="IMG2" alt="image 2" src="rock.png" />
+      </div>
+    </div>
+    <br>
+    <button type="button" onclick="RandomChoice()" id="BTN"> Lets Play! </button>
+    <br>
+    <button  type="button" onclick="Name()" id="BB"> Enter your Name </button>
+    
+      <div id="Scoreboard_Number">
+        <h1 style="font-size:30px; color: antiquewhite"> ScoreBoard </h1> 
+    </div>
+    <script src="index.js"></script>
+   
+  </body>
+</html>
